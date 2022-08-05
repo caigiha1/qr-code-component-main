@@ -1,0 +1,45 @@
+.container {
+  max-width: 144rem;
+  background-color: $color-gray-light;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.details {
+  width: 28rem;
+  height: 40.5rem;
+  background-color: $color-white;
+  border-radius: 20px;
+
+  &__icon {
+    display: flex;
+    margin: 1.5rem 0;
+    justify-content: center;
+
+    &__header {
+      width: 25rem;
+      height: 25rem;
+
+      border-radius: 20px;
+    }
+  }
+  &__heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 1.5rem 3rem;
+    &--h1 {
+      font-size: 1.75rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+    }
+    &--paragraph {
+      font-size: 1.25rem;
+      color: $color-blue-grayish;
+    }
+  }
+}
